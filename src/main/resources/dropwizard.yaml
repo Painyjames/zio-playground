@@ -1,0 +1,9 @@
+
+metrics:
+  frequency: 1 second                       # Default is 1 second.
+  reporters:
+    - type: datadog
+      host: localhost
+      transport:
+        type: http
+        apiKey: c34dc09b2d2bce85d08c65dbd5331d0c
